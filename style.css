@@ -48,9 +48,21 @@ footer {
     width: 42px;
 }
 
-.enter-messege {
+.enter-message-container {
     width: 100%;
-    height: auto;
+    height: fit-content;
     background-color: #DCDCDC;
     color: #000;
+}
+
+.enter-message-container p {
+    width: 100%;
+}
+
+.enter-message-container.white-bg{
+    background-color: #fff;
+}
+
+.enter-message-container.pink-bg {
+    background-color: #FFDEDE;
 }
