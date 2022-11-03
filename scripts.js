@@ -84,7 +84,7 @@ axios.post("https://mock-api.driven.com.br/api/v6/uol/participants", mainUser)
 function enterRoom () {
     messagesContainer.innerHTML += `
     <div class="enter-message-container">
-        <p class="enter-messege">${""}tempo <span>${mainUser.name}</span> entra na sala...</p>
+        <p class="enter-messege">${""}tempo <span>${mainUser.name}</span data-identifier="enter-name"> entra na sala...</p>
     </div>
     
     `
